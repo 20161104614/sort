@@ -9,6 +9,13 @@
 #include <stdio.h>
 int main()
 {
+<<<<<<< Updated upstream
+=======
+    FILE *fr;
+    FILE *fw;
+    fr=fopen("//Users//a20161104614//Desktop//read\\ file/1.txt","r+");
+    fw=fopen("//Users//a20161104614//Desktop//read\\ file/2.txt","w");
+>>>>>>> Stashed changes
     int i,a[10],j,t;
     for(i=0;i<10;i++)
     {
